@@ -4,6 +4,12 @@
 
  body{
  	font-family: Helvetica, sans-serif;
+ 	background-color:blue;
+ }
+
+ #maincolumn{
+ 	width: 360px; /* TODO make responsive */
+ 	background-color:red;
  }
 
  .linkbar, .linkbar a{

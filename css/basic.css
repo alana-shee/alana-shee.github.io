@@ -8,16 +8,20 @@
  }
 
  a:link{
- 	color: #404040;
+ 	color: #232328;
+ }
+
+ a:visited{
+	color: #474751;
  }
 
  a:hover{
  	text-decoration: none;
- 	color: #808080;
+ 	color: #626270;
  }
 
-  a:visited{
- 	color: #808080;
+ a:active{
+ 	color: #9393a1;
  }
 
  p, ul{
@@ -96,10 +100,6 @@
  	font-size: 12px;/*9pt*/
  	color: #b3b3cc; /*grey*/
  	margin-bottom: 8px;
- }
-
- #footer{
- 	width: 100%;
  }
 
 #footer, #footer a{

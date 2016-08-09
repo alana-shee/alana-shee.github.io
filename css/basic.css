@@ -57,6 +57,13 @@ Greys for light text - #b3b3cc
  	color: #b3b3cc; /*grey*/
  }
 
+ blockquote{
+ 	margin-top: 8px;
+ 	margin-bottom: 8px;
+ 	font-size: 16px;  /*12pt*/
+ 	font-style: italic;
+ }
+
  #maincolumn{
  	display:inline-block;
  	position: relative; /* allow absolute and relative positions for children */
@@ -98,7 +105,7 @@ Greys for light text - #b3b3cc
  	background-color: #b3b3cc;/*grey*/
  }
 
- #navbar{
+ #navbar, #navbar a{
  	font-size: 12px;/*9pt*/
  	color: #b3b3cc; /*grey*/;
  	text-align: left;

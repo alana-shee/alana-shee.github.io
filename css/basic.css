@@ -3,32 +3,103 @@
  */
 
  body{
- 	font-family: Helvetica, sans-serif;
- 	background-color:blue;
+ 	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+ 	text-align: center;
  }
 
- #maincolumn{
- 	width: 360px; /* TODO make responsive */
- 	background-color:red;
+ a:link{
+ 	color: #404040;
  }
 
- .linkbar, .linkbar a{
- 	color: #b3b3cc /*grey*/;
+ a:hover{
+ 	text-decoration: none;
+ 	color: #808080;
  }
 
- .timestamp{
- 	color: #b3b3cc /*grey*/;
+  a:visited{
+ 	color: #808080;
  }
 
- .sitetitle .highlight{
- 	color: #990033; /*dark red TODO: use sass?*/
+ p, ul{
+ 	font-size: 19px; /*14pt*/
  }
 
- .siteauthor, h1, h2{
- 	font-family: "Times New Roman", Times, serif;
- 	font-style: italic;
+ h1{
+ 	font-size: 28px; /*21pt*/
+ }
+
+ h2{
+ 	font-size: 22px; /*16pt*/
+ }
+
+ h1, h2{
+ 	margin-top: 24px;
+ 	margin-bottom: 16px;
  }
 
  h3{
- 	color: #b3b3cc /*grey*/;
+ 	margin-top: 16px;
+ 	margin-bottom: 8px;
+ 	font-size: 12px;/*9pt*/
+ 	color: #b3b3cc; /*grey*/
+ }
+
+ #maincolumn{
+ 	display:inline-block;
+ 	position: relative; /* allow absolute and relative positions for children */
+ 	width: 360px; /* TODO make responsive */
+ 	min-height: 100vh; /* TODO not supported everywhere?*/
+ 	padding: 0px 16px 0px 16px;
+ 	text-align: center;
+ }
+
+ #header{
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+
+ #sitetitle{
+ 	font-size: 19px; /*14pt*/
+ }
+
+ #sitetitle .highlight{
+ 	color: #990033; /*dark red TODO: use sass?*/
+ }
+
+ #siteauthor{
+ 	font-size: 16px;  /*12pt*/
+ }
+
+ #siteauthor, h1, h2{
+ 	font-family: Baskerville, "Times New Roman", Times, serif;
+ 	font-style: italic;
+ }
+
+ .dividerline{
+ 	height: 1px;
+ 	background-color: #b3b3cc;/*grey*/
+ }
+
+ #navbar{
+ 	font-size: 12px;/*9pt*/
+ 	color: #b3b3cc; /*grey*/;
+ 	text-align: left;
+ 	margin-top: 2px;
+ }
+
+ #timestamp{
+ 	font-size: 12px;/*9pt*/
+ 	color: #b3b3cc; /*grey*/
+ 	margin-bottom: 8px;
+ }
+
+ #footer{
+ 	width: 100%;
+ }
+
+#footer, #footer a{
+	margin-top: 24px;
+	margin-bottom: 16px;
+ 	font-size: 12px;/*9pt*/
+ 	color: #b3b3cc; /*grey*/
  }

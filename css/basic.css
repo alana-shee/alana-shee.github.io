@@ -75,6 +75,11 @@
  	font-style: italic;
  }
 
+ .littleicon{
+ 	width: 16px;
+ 	height: 16px;
+ }
+
  .dividerline{
  	height: 1px;
  	background-color: #b3b3cc;/*grey*/

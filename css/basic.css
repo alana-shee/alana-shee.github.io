@@ -1,0 +1,28 @@
+/* Basic Stylesheet for A Nice Website 
+ * by Alana Shee - alana-shee.github.io
+ */
+
+ body{
+ 	font-family: Helvetica, sans-serif;
+ }
+
+ .linkbar, .linkbar a{
+ 	color: #b3b3cc /*grey*/;
+ }
+
+ .timestamp{
+ 	color: #b3b3cc /*grey*/;
+ }
+
+ .sitetitle .highlight{
+ 	color: #990033; /*dark red TODO: use sass?*/
+ }
+
+ .siteauthor, h1, h2{
+ 	font-family: "Times New Roman", Times, serif;
+ 	font-style: italic;
+ }
+
+ h3{
+ 	color: #b3b3cc /*grey*/;
+ }

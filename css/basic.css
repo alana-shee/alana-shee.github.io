@@ -60,8 +60,13 @@ Greys for light text - #b3b3cc
  blockquote{
  	margin-top: 8px;
  	margin-bottom: 8px;
- 	font-size: 16px;  /*12pt*/
+ 	font-size: 19px;  /*14pt*/
  	font-style: italic;
+ }
+
+ li{
+ 	margin-top: 4px;
+ 	margin-bottom: 4px;
  }
 
  #maincolumn{
@@ -98,6 +103,11 @@ Greys for light text - #b3b3cc
  .littleicon{
  	width: 16px;
  	height: 16px;
+ }
+
+ .mediumicon{
+ 	width: 24px;
+ 	height: auto;
  }
 
  .dividerline{

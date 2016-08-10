@@ -79,6 +79,17 @@ Greys for light text - #b3b3cc
  	text-align: center;
  }
 
+ /* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	#maincolumn{
+	 	min-width: 360px;
+	 	width: 100%;
+ 	}
+}
+
  #header{
  	padding-top: 20px;
  	padding-bottom: 20px;

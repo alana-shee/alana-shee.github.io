@@ -72,7 +72,7 @@ Greys for light text - #b3b3cc
  #maincolumn{
  	display:inline-block;
  	position: relative; /* allow absolute and relative positions for children */
- 	max-width: 360px; /* TODO make responsive */
+ 	max-width: 22.5em; /* TODO make responsive */
  	width: 100%;
  	padding: 0px 16px 0px 16px;
  	text-align: center;
